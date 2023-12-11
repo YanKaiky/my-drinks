@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #000;
     overflow: hidden;
 }
 
@@ -16,9 +16,8 @@ body {
     width: 1000px;
     height: 600px;
     padding: 50px;
-    background-color: #f5f5f5;
+    background-color: #121212;
     border-radius: 20px;
-    box-shadow: 0 30px 50px #dbdbdb;
 }
 
 #slide {
@@ -39,7 +38,7 @@ body {
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0 20px 50px #3e3e3e;
+    box-shadow: 0 20px 50px #353535;
 }
 
 .item:nth-child(1), .item:nth-child(2) {
@@ -53,19 +52,19 @@ body {
 }
 
 .item:nth-child(3) {
-    left: 50%;
+    left: 70%;
 }
 
 .item:nth-child(4) {
-    left: calc(50% + 220px);
+    left: calc(70% + 220px);
 }
 
 .item:nth-child(5) {
-    left: calc(50% + 440px);
+    left: calc(70% + 440px);
 }
 
 .item:nth-child(n+6) {
-    left: calc(50% + 660px);
+    left: calc(70% + 660px);
     opacity: 0;
 }
 
