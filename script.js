@@ -1,11 +1,49 @@
-document.getElementById('next').onclick = () => {
-    let list = document.querySelectorAll('.item');
+let items = document.querySelectorAll('.slider .list .item');
+let previous = document.getElementById('previous');
+let next = document.getElementById('next');
+let thumbnails = document.querySelectorAll('.thumbnails .item');
 
-    document.getElementById('slide').appendChild(list[0])
+let count = items.length;
+let index = 0;
+
+const updateIndex = (increment) => {
+    index = index + increment;
+
+    if (index < 0) index = count - 1;
+    if (index >= count) index = 0;
 }
 
-document.getElementById('previous').onclick = () => {
-    let list = document.querySelectorAll('.item');
+previous.onclick = () => {
+    updateIndex(-1);
 
-    document.getElementById('slide').prepend(list[list.length - 1]);
+    showSlider();
 }
+
+next.onclick = () => {
+    updateIndex(1);
+
+    showSlider();
+}
+
+const showSlider = () => {
+    let activeIndex = document.querySelector('.slider .list .item.active');
+    let activeThumbnail = document.querySelector('.thumbnails .item.active');
+
+    if (activeIndex) activeIndex.classList.remove('active');
+
+    if (activeThumbnail) activeThumbnail.classList.remove('active');
+
+    items[index].classList.add('active');
+    thumbnails[index].classList.add('active');
+}
+
+thumbnails.forEach((thumb, i) => {
+    thumb.addEventListener('click', () => {
+        index = i;
+        showSlider();
+    });
+})
+
+let refreshInterval = setInterval(() => {
+    next.click()
+}, 3000);
