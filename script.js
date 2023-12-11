@@ -25,6 +25,11 @@ next.onclick = () => {
     showSlider();
 }
 
+let refreshInterval = setInterval(() => {
+    next.click()
+}, 5000);
+
+
 const showSlider = () => {
     let activeIndex = document.querySelector('.slider .list .item.active');
     let activeThumbnail = document.querySelector('.thumbnails .item.active');
@@ -35,6 +40,12 @@ const showSlider = () => {
 
     items[index].classList.add('active');
     thumbnails[index].classList.add('active');
+
+    clearInterval(refreshInterval);
+
+    let refreshInterval = setInterval(() => {
+        next.click()
+    }, 5000);
 }
 
 thumbnails.forEach((thumb, i) => {
@@ -43,7 +54,3 @@ thumbnails.forEach((thumb, i) => {
         showSlider();
     });
 })
-
-let refreshInterval = setInterval(() => {
-    next.click()
-}, 3000);
