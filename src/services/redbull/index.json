@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Energy Drink",
+        "brand": "Red Bull",
+        "description": "Red Bull Energy Drink é apreciado no mundo todo por atletas de elite, profissionais dinâmicos, estudantes ativos e motoristas em viagens longas.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Energy-Drink.png"
+    },
+    {
+        "name": "Sugarfree",
+        "brand": "Red Bull",
+        "description": "Asas sem açúcares: o Red Bull Sugarfree é Red Bull Energy Drink sem açúcares.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Sugarfree.png"
+    },
+    {
+        "name": "Açaí Edition",
+        "brand": "Red Bull",
+        "description": "O Red Bull Açaí Edition contém os mesmos ingredientes de alta qualidade do Red Bull Energy Drink e tem sabor de açaí.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Açaí-Edition.png"
+    },
+    {
+        "name": "Tropical Edition",
+        "brand": "Red Bull",
+        "description": "O Red Bull Tropical Edition contém os mesmos ingredientes de qualidade do Red Bull Energy Drink e tem sabor de frutas tropicais.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Tropical-Edition.png"
+    },
+    {
+        "name": "Coco Edition",
+        "brand": "Red Bull",
+        "description": "O Red Bull Coco Edition contém os mesmos ingredientes de alta qualidade do Red Bull Energy Drink e tem sabor de coco & açaí.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Coco-Edition.png"
+    },
+    {
+        "name": "Melancia Edition",
+        "brand": "Red Bull",
+        "description": "Experimente o novo e refrescante sabor de Melancia com o Red Bull Melancia Edition.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Melancia-Edition.png"
+    },
+    {
+        "name": "Pitaya Edition",
+        "brand": "Red Bull",
+        "description": "O Red Bull Pitaya Edition contém os mesmos ingredients de alta qualidade do Red Bull Energy Drink e tem o sabor de pitaya.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Pitaya-Edition.png"
+    },
+    {
+        "name": "Winter Edition",
+        "brand": "Red Bull",
+        "description": "O Red Bull Winter Edition contém os mesmos ingredientes de qualidade do Red Bull Energy Drink e tem o sabor de cereja e frutas silvestres.",
+        "category": "cold",
+        "image": "../../../assets/red-bull/Winter-Edition.png"
+    }
+]

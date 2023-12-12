@@ -1,0 +1,93 @@
+[
+    {
+        "name": "ORIGINAL",
+        "brand": "Monter Energy",
+        "description": "Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular. Monster possui uma presença marcante e um sabor único! Inconfundível.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ORIGINAL.png"
+    },
+    {
+        "name": "ABSOLUTELY ZERO",
+        "brand": "Monter Energy",
+        "description": "Monster Energy Absolutely Zero traz o mesmo sabor e o mesmo punch energético do original, com menos calorias e sem açúcares.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ABSOLUTELY-ZERO.png"
+    },
+    {
+        "name": "ULTRA PARADISE",
+        "brand": "Monter Energy",
+        "description": "Monster Ultra Paradise é puro, refrescante e revigorante como os sabores da ilha. O paraíso está logo ali!",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ULTRA-PARADISE.png"
+    },
+    {
+        "name": "ZERO ULTRA",
+        "brand": "Monter Energy",
+        "description": "Mais refrescante. Mais leve. Monster Energy Zero Ultra é zero açúcar, zero calorias e uma carga completa de nossa mistura de energia Monster.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ZERO-ULTRA.png"
+    },
+    {
+        "name": "ULTRA VIOLET",
+        "brand": "Monter Energy",
+        "description": "Inspirado nos anos 70. Época de atitude livre e positiva, com um estilo único e inconfundível, tempo onde o psicodélico, glamour, heavy metal e rock se misturaram em uma harmonia única.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ULTRA-VIOLET.png"
+    },
+    {
+        "name": "ULTRA WATERMELON",
+        "brand": "Monter Energy",
+        "description": "Verão na lata para você aproveitar a qualquer momento. Agite aquelas noites quentes com Ultra Watermelon. Zero açúcar, fácil de beber e super refrescante.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/ULTRA-WATERMELON.png"
+    },
+    {
+        "name": "JUICE KHAOTIC",
+        "brand": "Monter Energy",
+        "description": "De volta a 2005, Monster Juice Original abalou o jogo, combinando um delicioso suco de verdade e atitude de bebida energética. Agora, mais de uma década depois, decidimos que era hora de deixar esse clássico ainda mais irado. Melhoramos o sabor e ajustamos o mix de suco para criar um sabor ainda melhor.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/JUICE-KHAOTIC.png"
+    },
+    {
+        "name": "JUICE PIPELINE PUNCH",
+        "brand": "Monter Energy",
+        "description": "Banzai Pipeline, a onda mais famosa do mundo no lendário North Shore de Oahu, ganha vida por apenas alguns breves meses do ano. Em homenagem a essa força épica da natureza, criamos Juice Monster Pipeline Punch. A combinação perfeita dos melhores sabores que o Havaí oferece - maracujá, laranja e goiaba - depois Monsterizado com o nosso famoso combo energético. E assim como a onda que lhe deu o nome, está destinado a se tornar uma lenda!",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/JUICE-PIPELINE-PUNCH.png"
+    },
+    {
+        "name": "JUICE KHAOS",
+        "brand": "Monter Energy",
+        "description": "Começamos com o sabor original, adicionando uma combinação agressiva de sucos naturais, em seguida carregamos essa combinação com uma carga de energia e está criado! Insano e híbrido! Parte suco natural, 100% Monster.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/JUICE-KHAOS.png"
+    },
+    {
+        "name": "JUICE PACIFIC PUNCH",
+        "brand": "Monter Energy",
+        "description": "Com um sabor profundo e amplo, assim como o Oceano Pacífico, e com um mix de frutas nada tradicional inspirado nos clássicos ponches. Pacific Punch traz a energia Monster e chega para te deixar com vento em popa e pronto para encarar até as marés mais agitadas. O ponche de frutas naturais em sua versão mais irada!",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/JUICE-PACIFIC-PUNCH.png"
+    },
+    {
+        "name": "JUICE MANGO LOCO",
+        "brand": "Monter Energy",
+        "description": "Mix de sucos perfeito para atrair as almas mais teimosas. Inspirado pelas tradições mexicanas e com um mix de frutas com manga. Além de sabor também entrega energia!",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/JUICE-MANGO-LOCO.png"
+    },
+    {
+        "name": "DRAGON ICE TEA LIMÃO",
+        "brand": "Monter Energy",
+        "description": "Energético em formato de chá, sem gás com leve toque de limão. Inspirado em tradições milenares da china.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/DRAGON-ICE-TEA-LIMÃO.png"
+    },
+    {
+        "name": "DRAGON ICE TEA PÊSSEGO",
+        "brand": "Monter Energy",
+        "description": "Energético em formato de chá, sem gás com leve toque de pêssego. Inspirado em tradições milenares da china.",
+        "category": "cold",
+        "image": "../../../assets/monster-energy/DRAGON-ICE-TEA-PÊSSEGO.png"
+    }
+]
