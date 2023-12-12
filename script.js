@@ -43,7 +43,7 @@ const showSlider = () => {
 
     clearInterval(refreshInterval);
 
-    let refreshInterval = setInterval(() => {
+    refreshInterval = setInterval(() => {
         next.click()
     }, 5000);
 }
