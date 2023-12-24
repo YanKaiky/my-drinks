@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body {
+div#content {
     font-family: Poppins;
     margin: 0;
     background-color: #010101;
